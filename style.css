@@ -1,0 +1,562 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+		font-family:bernier;
+		src:url(Font/BERNIER%E2%84%A2%20Regular.ttf);
+}
+
+@font-face {
+	font-family:myriad;
+	src:url(Font/MyriadPro-Regular.otf);
+
+}
+
+body {
+	margin:0px;
+}
+
+
+a:link {
+	text-decoration:none;
+	border:0px;
+}
+.homewrap {
+	z-index:2;
+	width:100%;
+	height:100vh;
+	position:relative;
+	
+}
+.homeimage1 {
+	width:50%;
+	height:50vh;
+	background-image:url(Photos/pile.jpg);
+	float:left;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.blur1 {
+	background-image:url(Photos/pile.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+ 
+.blur1:hover {
+	background-image:url(Photos/pile.jpg);
+	background-repeat:no-repeat;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.homeimage2 {
+	background-image:url(Photos/ratboys%20copy.png);
+	float:left;
+	overflow:hidden;
+	width:50%;
+	height:50vh;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.blur2 {
+	background-image:url(Photos/ratboys%20copy.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ 
+.blur2:hover {
+	background-image:url(Photos/ratboys%20copy.png);
+	background-repeat:no-repeat;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.homeimage3 {
+	background-image:url(Photos/hopalong.jpg);
+	float:left;
+	overflow:hidden;
+	width:50%;
+	height:50vh;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.blur3 {
+	background-image:url(Photos/hopalong.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ 
+ .blur3:hover {
+	background-image:url(Photos/hopalong.jpg);
+	background-repeat:no-repeat;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.homeimage4 {
+	background-image:url(Photos/Alaska.png);
+	float:left;
+	overflow:hidden;
+	width:50%;
+	height:50vh;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.blur4 {
+	background-image:url(Photos/Alaska.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ 
+.blur4:hover {
+	background-image:url(Photos/Alaska.png);
+	background-repeat:no-repeat;
+	width:110%;
+	height:110vh;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hometitlebox {
+	width:723px;
+	height:142px;
+	background-color: rgba(208, 219, 15, 0.8);
+	position:absolute;
+	left:50%;
+	margin:278px auto auto -360px;
+}
+
+.hometitletext {
+	width:600px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:88px;
+	font-weight:100;
+	line-height:30px;
+	position:relative;
+	margin:59px auto auto 145px;
+	font-family:bernier;
+}
+
+.headwrap {
+	width:100%;
+	height:48px;
+	position:fixed;
+	top:0px;
+	z-index:1;
+}
+
+.head {
+	width:100%;
+	height:53px;
+	background-color: rgba(0,0,0,1);
+	margin:0px auto;
+	position:absolute;
+}
+
+.headtext {
+	width:160px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:25px;
+	font-weight:100;
+	z-index:10;
+	position:relative;
+	font-family:bernier;
+	margin: 12px auto auto 580px;
+}
+
+.return {
+	width:160px;
+	height: 20px;
+	z-index:10;
+	position:relative;
+	font-family:bernier;
+	margin: 12px auto auto 580px;
+	background-image:url(Photos/back-to-top-icon.png);
+}
+
+.postwrap {
+	z-index:0;
+	width:100%;
+	height:1500px;
+	background-color:rgba(208,219,15,1);
+	position:static;
+}
+
+.postimage {
+	width:100%;
+	height:614px;
+	background-image:url(Photos/pile.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+}
+
+.posttitlebox {
+	width:922px;
+	height:80px;
+	background-color: rgba(208, 219, 15, 0.8);
+	position:absolute;
+	margin: 160px auto auto 182px;
+}
+
+.posttitletext {
+	width:700px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:76px;
+	font-weight:100;
+	font-family:bernier;
+	margin: -1px auto auto 182px;
+	position:relative;
+}
+
+.postsubbox {
+	width:922px;
+	height:80px;
+	background-color: rgba(208, 219, 15, 0.8);
+	position:absolute;
+	margin: 300px auto auto 182px;
+}
+
+.postsubtext {
+	width:700px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:38px;
+	font-weight:100;
+	font-family:bernier;
+	margin: 20px auto auto 180px;
+	position:relative;
+}
+
+.posttextwrap {
+	width:720px;
+	height:700px;
+	background-color:rgba(0,0,0,1);
+	position:static;
+	margin: -65px auto auto 280px;
+	position:absolute;
+}
+
+.postdate {
+	width: 360px;
+	height:100px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 15px auto auto 80px;
+}
+
+.line {
+	width:65%;
+	color:rgba(255,255,255,1);
+	size:.1px;
+	position: relative;
+	margin-top:-60px;
+}
+
+.posttext {
+	width: 570px;
+	height:700px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 40px auto auto 80px;
+	text-align:left;
+	line-height:24px;
+}
+
+.postwrap2 {
+	z-index:0;
+	width:100%;
+	height:1500px;
+	top:auto;
+	background-color:rgba(208,219,15,1);
+	position:static;
+}
+
+.postimage2 {
+	width:100%;
+	height:614px;
+	background-image:url(Photos/Alaska.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+}
+
+.posttitletext2 {
+	width:700px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:76px;
+	font-weight:100;
+	font-family:bernier;
+	margin: -1px auto auto 132px;
+	position:relative;
+}
+
+.postsubtext2 {
+	width:800px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:30px;
+	font-weight:100;
+	font-family:bernier;
+	margin: -20px auto auto 60px;
+	position:relative;
+	text-align:center;
+}
+
+.postdate2 {
+	width: 360px;
+	height:100px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 15px auto auto 80px;
+}
+
+.line2 {
+	width:65%;
+	color:rgba(255,255,255,1);
+	size:.1px;
+	position: relative;
+	margin-top:-60px;
+}
+
+.posttext2 {
+	width: 570px;
+	height:700px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 40px auto auto 80px;
+	text-align:left;
+	line-height:24px;
+}
+	
+.postwrap3 {
+	z-index:0;
+	width:100%;
+	height:1500px;
+	top:auto;
+	background-color:rgba(208,219,15,1);
+}
+
+.postimage3 {
+	width:100%;
+	height:614px;
+	background-image:url(Photos/hopalong.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;	
+}
+
+.posttitletext3 {
+	width:700px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:74px;
+	font-weight:100;
+	font-family:bernier;
+	margin: -1px auto auto 122px;
+	position:relative;
+}
+
+.postsubtext3 {
+	width:800px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:30px;
+	font-weight:100;
+	font-family:bernier;
+	margin: -5px auto auto 60px;
+	position:relative;
+	text-align:center;
+}
+
+.posttextwrap3 {
+	width:720px;
+	height:700px;
+	background-color:rgba(0,0,0,1);
+	position:static;
+	margin: -65px auto auto 280px;
+	position:absolute;
+}
+	
+.postdate3 {
+	width: 360px;
+	height:100px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 15px auto auto 80px;
+}
+
+.line3 {
+	width:65%;
+	color:rgba(255,255,255,1);
+	size:.1px;
+	position: relative;
+	margin-top:-60px;
+}
+
+.posttext3 {
+	width: 570px;
+	height:700px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 40px auto auto 80px;
+	text-align:left;
+	line-height:24px;
+}
+
+.postimage4 {
+	width:100%;
+	height:614px;
+	background-image:url(Photos/ratboys%20copy.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+}
+
+.posttitletext4 {
+	width:700px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:74px;
+	font-weight:100;
+	font-family:bernier;
+	margin: -1px auto auto 352px;
+	position:relative;
+	
+}
+
+.postsubtext4 {
+	width:800px;
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-size:30px;
+	font-weight:100;
+	font-family:bernier;
+	margin: -5px auto auto 60px;
+	position:relative;
+	text-align:center;	
+}
+
+.posttextwrap4 {
+	width:720px;
+	height:700px;
+	background-color:rgba(0,0,0,1);
+	position:static;
+	margin: -65px auto auto 280px;
+	position:absolute;
+}
+	
+.postdate4 {
+	width: 360px;
+	height:100px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 15px auto auto 80px;
+}
+
+.line4 {
+	width:65%;
+	color:rgba(255,255,255,1);
+	size:.1px;
+	position: relative;
+	margin-top:-60px;
+}
+
+.posttext4 {
+	width: 570px;
+	height:700px;
+	color:rgba(255,255,255,1);
+	font-size:24 px;
+	font-family:myriad;
+	position:relative;
+	margin: 40px auto auto 80px;
+	text-align:left;
+	line-height:24px;
+}
+
